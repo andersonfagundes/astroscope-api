@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/andersonfagundes/astroscope-api/issues"
   },
-  "homepage": "https://github.com/andersonfagundes/astroscope-api#readme"
+  "homepage": "https://github.com/andersonfagundes/astroscope-api#readme",
+  "dependencies": {
+    "axios": "^1.14.0"
+  }
 }
