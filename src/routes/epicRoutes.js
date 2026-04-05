@@ -3,6 +3,6 @@ import { fetchApod } from '../controllers/apodController.js';
 
 const router = express.Router();
 
-router.get('/apod', fetchApod);
+router.get('/epic', fetchApod);
 
 export default router;

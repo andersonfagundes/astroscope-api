@@ -1,4 +1,4 @@
-import { getApod } from '../services/apodService.js';
+import { getEpic } from '../services/epicService.js';
 
 export async function fetchApod(request, response) {
   const { date } = request.query;
