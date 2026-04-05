@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,12 +17,5 @@
   "bugs": {
     "url": "https://github.com/andersonfagundes/astroscope-api/issues"
   },
-  "homepage": "https://github.com/andersonfagundes/astroscope-api#readme",
-  "dependencies": {
-    "dotenv": "^17.4.0",
-    "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+  "homepage": "https://github.com/andersonfagundes/astroscope-api#readme"
 }
