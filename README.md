@@ -16,7 +16,9 @@
 
 5. [API Endpoints](#-api-endpoints)
 
-6. [Useful Links](#-useful-links)
+6. [Swagger](#-swagger)
+
+7. [Useful Links](#-useful-links)
 
 ---
 
@@ -132,6 +134,20 @@ npm run test
 ### EPIC Routes
 
 - `GET /epic` - Get Earth images by date
+
+---
+
+## 📚 Swagger
+
+<div align="center">
+
+  <br />
+
+  <img width="1280" height="720" alt="AstroScope API Swagger documentation" src="https://github.com/andersonfagundes/astroscope-api/blob/42f644354b8d11daf69436a5237a7620ee31420a/img.png" />
+
+  <br />
+
+</div>
 
 ---
 
