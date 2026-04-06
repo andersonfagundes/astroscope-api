@@ -62,7 +62,7 @@ The project includes:
 
 ---
 
-## 👌 Quick Start
+## ▶️ Quick Start
 
 ### Prerequisites
 
