@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import routes from './routes/index.js';
 import { authenticate } from '../src/middleware/authMiddleware.js';
+import swaggerUi from 'swagger-ui-express'
+import swaggerSpec from './config/swagger.js';
 
 const app = express();
 
@@ -12,5 +14,11 @@ const API_PREFIX = '/api/v1';
 
 //routes
 app.use(API_PREFIX, authenticate, routes);
+
+// Swagger
+if (process.env.NODE_ENV !== 'production') {
+  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+}
+
 
 export default app;
