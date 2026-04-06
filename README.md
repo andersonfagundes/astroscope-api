@@ -2,8 +2,6 @@
 
 <h3 align="center">Explore and visualize NASA space data through an interactive web application</h3>
 
-<br />
-
 </div>
 
 ## 📋 Table of Contents
@@ -96,8 +94,6 @@ PORT=5000
 ```
 To run this project, you will need a NASA API key. You can request it [here](https://api.nasa.gov/).
 
-### 🔐 Authentication
-
 To test the API using tools like Postman, you must generate an authentication token first.
 
 Run:
@@ -119,7 +115,7 @@ The API will be available at: [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 🔌 API Endpoints
+## 🌐 API Endpoints
 
 ### APOD Routes
 
@@ -137,7 +133,7 @@ The API will be available at: [http://localhost:5000](http://localhost:5000)
 
 - [Express.js Documentation](https://expressjs.com/)
 
-- [JWT.io](https://jwt.io/) - JWT token decoder and debugger
+- [JWT.io](https://jwt.io/)
 
 - [NASA API key](https://api.nasa.gov/)
 
