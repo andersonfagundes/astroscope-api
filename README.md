@@ -115,6 +115,12 @@ npm run dev
 
 The API will be available at: [http://localhost:5000](http://localhost:5000)
 
+5. **Run the application tests**
+
+```bash
+npm run test
+```
+
 ---
 
 ## 🌐 API Endpoints
