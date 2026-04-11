@@ -30,11 +30,9 @@ The project includes:
 
 **Node.js**, **Express.js**, and modern backend development practices
 
-1. **JWT Authentication** - JWT Authentication
+1. **APOD (Astronomy Picture of the Day) API** - Fetch the NASA APOD data for a given date
 
-2. **APOD (Astronomy Picture of the Day) API** - Fetch the NASA APOD data for a given date
-
-3. **Fetch the NASA APOD data for a given datee** - EPIC (Earth Polychromatic Imaging Camera) API
+2. **Fetch the NASA APOD data for a given datee** - EPIC (Earth Polychromatic Imaging Camera) API
 
 ---
 
@@ -91,7 +89,6 @@ Create a `.env` file in the root directory:
 
 ```env
 NASA_API_KEY="your-nasa-api-key"
-JWT_SECRET="your-super-secret-jwt-key"
 PORT=5000
 ```
 To run this project, you will need a NASA API key. You can request it [here](https://api.nasa.gov/).
@@ -143,8 +140,6 @@ npm run test
 - [Node.js Documentation](https://nodejs.org/docs)
 
 - [Express.js Documentation](https://expressjs.com/)
-
-- [JWT.io](https://jwt.io/)
 
 - [NASA API key](https://api.nasa.gov/)
 
