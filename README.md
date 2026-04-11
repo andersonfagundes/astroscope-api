@@ -44,8 +44,6 @@ The project includes:
 
 - **Express.js** – Fast, minimalist web framework for Node.js
 
-- **JWT (JSON Web Tokens)** – Secure authentication and authorization
-
 - **bcryptjs** – Password hashing for secure user authentication
 
 - **dotenv** – Environment variable management
@@ -97,17 +95,6 @@ JWT_SECRET="your-super-secret-jwt-key"
 PORT=5000
 ```
 To run this project, you will need a NASA API key. You can request it [here](https://api.nasa.gov/).
-
-To test the API using tools like Postman, you must generate an authentication token first.
-
-Run:
-
-```bash
-node src/utils/generateToken.js
-```
-Then include the token in your request headers before making any API calls.
-
-Authorization: Bearer <your_token>
 
 4. **Start the development server**
 
