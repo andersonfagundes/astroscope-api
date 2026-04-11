@@ -6,6 +6,11 @@ export async function fetchApod(request, response) {
     const data = await getApod(date);
     response.json(data);
   } catch (error) {
-    response.status(500).json({ message: 'Error fetching APOD' });
+    const detail = error instanceof Error ? error.message : String(error);
+    console.error('fetchApod', detail);
+    response.status(500).json({
+      message: 'Error fetching APOD',
+      detail,
+    });
   }
 }

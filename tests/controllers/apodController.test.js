@@ -29,5 +29,6 @@ describe('APOD Controller', () => {
     const res = await request(app).get('/api/v1/apod');
     expect(res.statusCode).toBe(500);
     expect(res.body).toHaveProperty('message', 'Error fetching APOD');
+    expect(res.body).toHaveProperty('detail', 'API error');
   });
 });
