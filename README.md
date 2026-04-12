@@ -24,7 +24,7 @@
 
 ## 🚀 Introduction
 
-The goal of the application is to integrate with **NASA’s Open APIs** and provide an interactive platform for exploring space-related data in a clear and engaging way using **React**, **Node.js**, and **Express**.
+The goal of this backend application is to integrate with NASA’s Open APIs and send the data to the [frontend](https://github.com/andersonfagundes/astroscope-web), allowing users to visualize the information through an interface built with React. It is built using **Node.js**, and **Express**.
 
 The project includes:
 
@@ -41,8 +41,6 @@ The project includes:
 - **Node.js** – JavaScript runtime for server-side development
 
 - **Express.js** – Fast, minimalist web framework for Node.js
-
-- **dotenv** – Environment variable management
 
 ---
 
