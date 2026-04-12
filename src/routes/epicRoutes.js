@@ -1,5 +1,5 @@
 import express from 'express';
-import { fetchApod } from '../controllers/apodController.js';
+import { fetchEpic } from '../controllers/epicController.js';
 
 const router = express.Router();
 
@@ -53,6 +53,6 @@ const router = express.Router();
  *     security:
  *       - bearerAuth: []
  */
-router.get('/epic', fetchApod);
+router.get('/', fetchEpic);
 
 export default router;

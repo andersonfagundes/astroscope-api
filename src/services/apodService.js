@@ -34,7 +34,7 @@ export async function getApod(date) {
         api_key: nasaConfig.apiKey,
         ...(date ? { date } : {}),
       },
-      timeout: 15_000,
+      timeout: 65_000,
     });
     return response.data;
   } catch (error) {
