@@ -126,8 +126,9 @@ npm run test
   <img width="1280" height="720" alt="AstroScope API Swagger documentation" src="https://github.com/andersonfagundes/astroscope-api/blob/42f644354b8d11daf69436a5237a7620ee31420a/img.png" />
 
   <br />
-
+  
 </div>
+The Swagger documentation will be available at http://localhost:5000/api-docs
 
 ---
 
