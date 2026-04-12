@@ -42,8 +42,6 @@ The project includes:
 
 - **Express.js** – Fast, minimalist web framework for Node.js
 
-- **bcryptjs** – Password hashing for secure user authentication
-
 - **dotenv** – Environment variable management
 
 ---
