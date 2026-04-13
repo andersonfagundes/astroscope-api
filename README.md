@@ -1,6 +1,6 @@
 # 🚀AstroScope
 
-<h3 align="center">Explore and visualize NASA space data through an interactive web application</h3>
+<h3 align="center">Explore and visualize NASA space data through a backend application</h3>
 
 </div>
 
