@@ -30,7 +30,7 @@ The project includes:
 
 **Node.js**, **Express.js**, and modern backend development practices
 
-1. **EPIC (Earth Polychromatic Imaging Camera) ** -  EPIC API delivers daily full-Earth images from the DSCOVR satellite, including rare events like lunar transits.
+1. **EPIC (Earth Polychromatic Imaging Camera)** -  EPIC API delivers daily full-Earth images from the DSCOVR satellite, including rare events like lunar transits.
 
 ---
 
